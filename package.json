@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-from-scratch",
+  "version": "1.0.0",
+  "description": "Repo for blog post: https://dev.bartwijnants.be/gatsby-from-scratch/",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartw/gatsby-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartw/gatsby-from-scratch/issues"
+  },
+  "homepage": "https://github.com/bartw/gatsby-from-scratch#readme",
+  "dependencies": {
+    "gatsby": "^2.18.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
